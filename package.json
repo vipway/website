@@ -1,0 +1,32 @@
+{
+  "name": "cody",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "prepare": "husky install"
+  },
+  "repository": "cody/site",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,md}": "prettier --write --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "clsx": "1.1.1",
+    "next": "12.1.5",
+    "prop-types": "15.8.1",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@types/react": "18.0.3",
+    "autoprefixer": "10.4.4",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.7",
+    "postcss": "8.4.12",
+    "prettier": "2.6.2",
+    "tailwindcss": "3.0.24",
+    "typescript": "4.6.3"
+  }
+}
